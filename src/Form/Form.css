@@ -1,0 +1,17 @@
+input {
+  margin: 15px;
+  /* width: 20%; */
+  font-size: 1em;
+}
+
+form {
+  width: 100%;
+  display: flex;
+}
+
+.submit-res.buttons {
+  /* width: 10%; */
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 0px 10px;
+}

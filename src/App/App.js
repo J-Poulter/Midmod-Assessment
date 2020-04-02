@@ -17,6 +17,10 @@ class App extends Component {
    .then(data => this.setState({reservations: data}))
    .catch(err => console.error(err))
  }
+
+ submitNewRes() {
+   
+ }
   
   render() {
     const { reservations } = this.state;
@@ -24,7 +28,7 @@ class App extends Component {
       <div className="App">
         <h1 className='app-title'>Turing Cafe Reservations</h1>
         <div className='resy-form'>
-          <Form />
+          <Form submitNewRes={this.submitNewRes}/>
         </div>
         <div className='resy-container'>
           <ReservationContainer reservations={reservations}/>
