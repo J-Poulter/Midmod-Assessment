@@ -10,7 +10,7 @@ const ReservationContainer = (props) => {
     />
   ))
   return (
-    <div>
+    <div className="reservations-container">
       {renderedReservations}
     </div>
   )
