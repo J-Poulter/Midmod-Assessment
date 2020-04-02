@@ -1,0 +1,27 @@
+.reservation-card {
+  border: solid 5px teal;
+  border-radius: 15px;
+  width: 60%;
+  background-color: whitesmoke;
+  color: teal;
+  padding: 0px 30px;
+  justify-self: center;
+}
+
+.res-title {
+ font-size: 2em;
+}
+
+.res-text {
+ font-weight: bold;
+ font-size: 1em;
+}
+
+.buttons {
+  background-color: teal;
+  color: white;
+  font-size: 1em;
+  padding: 10px 50px;
+  margin-bottom: 15px;
+  width: 70%;
+}
